@@ -20,6 +20,7 @@
       - [Diagrammes de séquence](#diagrammes-de-séquence)
       - [Contrats d'interface](#contrats-dinterface)
     - [Design interface utilisateur](#design-interface-utilisateur)
+  - [Coûts](#couts)
   - [Déploiement](#déploiement)
 - [Adapter à différentes échelles](#adapter-à-différentes-échelles)
   - [User story](#user-story)
@@ -44,6 +45,7 @@
   - contrat passé entre la partie exécutante et la partie donneuse d'ordre
   - délimiter le scope de la solution
 - servir de documentation à posteriori
+- servir à l'onboarding de nouvelles personnes dans l'équipe
 - servir à la rédaction de tests
 
 ## Contenu
@@ -74,6 +76,9 @@
 
 ### Solution retenue
 
+- également citer les alternatives
+  - et pourquoi elles n'ont pas été choisies
+
 #### Liste des fonctionnalités
 
 - nom
@@ -83,6 +88,9 @@
 
 #### Architecture logicielle
 
+- monolithe vs backend + frontend vs micro architecture
+- ssr, ssg, csr, spa, ...
+
 #### Choix des langages
 
 #### Choix des dépendances / librairies
@@ -91,11 +99,42 @@
 
 ##### MCD
 
+
+- permet de connaître le design des données
+
+Extrait du cours sur l'introduction aux bases de données :
+
+> Le MCD, ou Modèle Conceptuel des données, est la première étape de la méthode Merise et celle qui nous intéresse ici.
+>
+> C'est une représentation graphique permettant de comprendre quels éléments composent un système, quelles sont les données qu'ils gèrent, et comment ces éléments intéragissent entre eux.
+>
+> Pour produire un MCD, la personne en charge devra se fier à des spécifications techniques qu'on lui aura fournies, des interviews avec les clients/utilisateurs, des règles de gestion du métier, un ou des systèmes existants, ...
+>
+> Un MCD se compose :
+>
+> - d'entités (en rectangle)
+> - de relations (en oval et avec des traits reliant les entités)
+> - de propriétés dans les entités et parfois les relations
+> - de cardinalités (chiffres au dessus des traits entre les entités et relation)
+
+
 ##### Diagrammes de classes
+
+- quelles fonctions sont gérées par quelles classes
 
 ##### Diagrammes de séquence
 
+- comment une fonctionnalité se déroule
+  - quels sont les acteurs nécessaires
+  - quels sont les inputs
+  - quelles sont les routes possibles
+  - quelles classes et fonctions intéragissent ensemble
+
 ##### Contrats d'interface
+
+- détails sur les inputs et output possibles du programme
+- le fonctionnement n'est pas intéressant
+- se concentrer uniquement sur ce qui est nécessaire au bon fonctionnement du programme
 
 ### Design interface utilisateur
 
@@ -104,6 +143,10 @@
 - le comportement à l'utilisation
   - animations
   - présences/absences des CTA
+
+### Coûts
+
+- estimation de temps
 
 ### Déploiement
 
