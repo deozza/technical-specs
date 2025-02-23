@@ -99,7 +99,6 @@
 
 ##### MCD
 
-
 - permet de connaître le design des données
 
 Extrait du cours sur l'introduction aux bases de données :
@@ -116,7 +115,6 @@ Extrait du cours sur l'introduction aux bases de données :
 > - de relations (en oval et avec des traits reliant les entités)
 > - de propriétés dans les entités et parfois les relations
 > - de cardinalités (chiffres au dessus des traits entre les entités et relation)
-
 
 ##### Diagrammes de classes
 
@@ -147,11 +145,39 @@ Extrait du cours sur l'introduction aux bases de données :
 ### Coûts
 
 - estimation de temps
+  - permet d'estimer le budget
+  - seulement une indication, à ne pas prendre comme deadline fixe
 
 ### Déploiement
+
+- quand
+- sur quels services
+- avec quels accès
+- à quelle fréquence
 
 ## Adapter à différentes échelles
 
 ### User story
 
 ### Ticket
+
+- permet de décrire une tâche atomique
+  - ou plusieurs petites tâches reliées ensembles
+- permet d'avoir un suivi et une planification
+- titre contient
+  - résumé du besoin
+  - tags permettant d'identifier / trier rapidement le scope
+    - quel environnement, quelle user story, ...
+- description contient
+  - explication du besoin
+  - quels sont les bloqueurs à ce besoin
+  - quelles sont les données concernées
+  - quel est l'environnement concerné
+  - quel est le résultat souhaité
+  - quelles sont les actions à réaliser pour obtenir le résultat
+  - quel est le scope
+- fournir un maximum de data
+  - chiffres
+  - exemples d'input et d'output
+  - exemples d'affichages, d'animations
+  
