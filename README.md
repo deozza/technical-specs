@@ -84,7 +84,6 @@
 - nom
 - description
 - autorisations
-- 
 
 #### Architecture logicielle
 
@@ -164,6 +163,10 @@ Extrait du cours sur l'introduction aux bases de données :
 - permet de décrire une tâche atomique
   - ou plusieurs petites tâches reliées ensembles
 - permet d'avoir un suivi et une planification
+- se mettre à la place de l'utilisateur final
+
+> en tant que `utilisateur` je souhaite faire `fonctionnalité` pour avoir `but`
+
 - titre contient
   - résumé du besoin
   - tags permettant d'identifier / trier rapidement le scope
